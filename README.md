@@ -64,3 +64,5 @@ Now, from user move and from Computer move , the winner will be generated in res
        
        http://localhost:8080/swagger-ui/index.html
    
+# Results
+![image](https://github.com/sriramaleti9238/Rock-Paper-Scissors-Assignment/assets/106054174/2755fb87-3202-4cbc-9932-3a6e46f10a0f)
