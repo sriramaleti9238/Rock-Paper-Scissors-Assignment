@@ -19,31 +19,31 @@ Now, from user move and from Computer move , the winner will be generated in res
 
 -> If Player wins , the output will be like :
 
-   Your Move : scissors
-   Computer Move : paper
+    Your Move : scissors
+    Computer Move : paper
 
-   Player wins [ the scissors beats the paper ]
+    Player wins [ the scissors beats the paper ]
 
 
 -> If Computer wins , the output will be like :
 
-   Your Move : rock
-   Computer Move : paper
+    Your Move : rock
+    Computer Move : paper
 
-   Computer wins [ the paper beats the rock ]
+    Computer wins [ the paper beats the rock ]
 
 
 -> If both user and computer will be same move , then output will be shown as
 
-   Your Move : scissors
-   Computer Move : scissors
+    Your Move : scissors
+    Computer Move : scissors
 
-   It is a tie
+    It is a tie
 
 
 -> If the user enter wrong data in rest endpoint,the output will be shown as 
 
-   Invalid move. Possible values: rock, paper, scissors
+    Invalid move. Possible values: rock, paper, scissors
    
 
 # Following are implemented in the above microservice
