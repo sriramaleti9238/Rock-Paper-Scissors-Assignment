@@ -56,9 +56,9 @@ Now, from user move and from Computer move , the winner will be generated in res
 
   to play game 
   
-        http://localhost:8080/api/v1/play?move=?
+        http://localhost:8080/api/v1/play?move=*
    
-        instead of " ? " , enter [" rock or paper or scissors "]
+        instead of " * " , enter [" rock or paper or scissors "]
    
   for swagger 
        
