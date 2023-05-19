@@ -1,0 +1,124 @@
+2023-05-19T20:24:46.223+05:30  INFO 19424 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : Starting RockPaperScissorsApplication using Java 17.0.6 with PID 19424 (E:\InternshipAssignment\sts\RockPaperScissorsApplication\target\classes started by asus in E:\InternshipAssignment\sts\RockPaperScissorsApplication)
+2023-05-19T20:24:46.223+05:30  INFO 19424 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-05-19T20:24:46.813+05:30  INFO 19424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-19T20:24:46.814+05:30  INFO 19424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-19T20:24:46.814+05:30  INFO 19424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-19T20:24:46.833+05:30  INFO 19424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-19T20:24:46.834+05:30  INFO 19424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 608 ms
+2023-05-19T20:24:47.152+05:30  INFO 19424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-19T20:24:47.164+05:30  INFO 19424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19T20:24:47.171+05:30  INFO 19424 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : Started RockPaperScissorsApplication in 1.016 seconds (process running for 20912.532)
+2023-05-19T20:24:47.173+05:30  INFO 19424 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-19T20:24:48.569+05:30  INFO 19424 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2023-05-19T20:24:48.582+05:30  INFO 19424 --- [Thread-39] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-19T20:24:48.655+05:30  INFO 19424 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : Starting RockPaperScissorsApplication using Java 17.0.6 with PID 19424 (E:\InternshipAssignment\sts\RockPaperScissorsApplication\target\classes started by asus in E:\InternshipAssignment\sts\RockPaperScissorsApplication)
+2023-05-19T20:24:48.656+05:30  INFO 19424 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-05-19T20:24:49.040+05:30  WARN 19424 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.game.app.RockPaperScissorsApplication]
+2023-05-19T20:24:49.072+05:30 ERROR 19424 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.game.app.RockPaperScissorsApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:747) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at com.game.app.RockPaperScissorsApplication.main(RockPaperScissorsApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: java.io.FileNotFoundException: class path resource [com/game/controller/RockPaperScissorsController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:54) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:187) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:297) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164) ~[spring-context-6.0.8.jar:6.0.8]
+	... 18 common frames omitted
+
+2023-05-19T20:29:37.468+05:30  INFO 25972 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : Starting RockPaperScissorsApplication using Java 17.0.6 with PID 25972 (E:\InternshipAssignment\sts\RockPaperScissorsApplication\target\classes started by asus in E:\InternshipAssignment\sts\RockPaperScissorsApplication)
+2023-05-19T20:29:37.473+05:30  INFO 25972 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-05-19T20:29:37.536+05:30  INFO 25972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-19T20:29:37.538+05:30  INFO 25972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-19T20:29:38.965+05:30  INFO 25972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-19T20:29:38.973+05:30  INFO 25972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-19T20:29:38.974+05:30  INFO 25972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-19T20:29:39.028+05:30  INFO 25972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-19T20:29:39.028+05:30  INFO 25972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1490 ms
+2023-05-19T20:29:39.717+05:30  INFO 25972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-19T20:29:39.744+05:30  INFO 25972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19T20:29:39.752+05:30  INFO 25972 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : Started RockPaperScissorsApplication in 2.762 seconds (process running for 3.35)
+2023-05-19T20:29:46.216+05:30  INFO 25972 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-19T20:29:46.217+05:30  INFO 25972 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-19T20:29:46.219+05:30  INFO 25972 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-19T20:29:46.280+05:30  INFO 25972 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["paper"]
+2023-05-19T20:29:46.281+05:30  INFO 25972 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:generateRandomMove()arguments : []
+2023-05-19T20:29:46.283+05:30  INFO 25972 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:generateRandomMove()Response : "scissors"
+2023-05-19T20:29:46.284+05:30  INFO 25972 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:determineWinner()arguments : ["paper","scissors"]
+2023-05-19T20:29:46.285+05:30  INFO 25972 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:determineWinner()Response : "Your Move : paper\nComputer Move : scissors\n\nComputer wins [ the scissors beats the paper ]"
+2023-05-19T20:29:46.339+05:30  INFO 25972 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Your Move : paper\nComputer Move : scissors\n\nComputer wins [ the scissors beats the paper ]","statusCode":"OK","statusCodeValue":200}
+2023-05-19T20:30:41.198+05:30  INFO 25972 --- [http-nio-8080-exec-4] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["rock"]
+2023-05-19T20:30:41.198+05:30  INFO 25972 --- [http-nio-8080-exec-4] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:generateRandomMove()arguments : []
+2023-05-19T20:30:41.198+05:30  INFO 25972 --- [http-nio-8080-exec-4] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:generateRandomMove()Response : "scissors"
+2023-05-19T20:30:41.198+05:30  INFO 25972 --- [http-nio-8080-exec-4] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:determineWinner()arguments : ["rock","scissors"]
+2023-05-19T20:30:41.198+05:30  INFO 25972 --- [http-nio-8080-exec-4] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:determineWinner()Response : "Your Move : rock\nComputer Move : scissors\n\nPlayer wins [ the rock beats the scissors ]"
+2023-05-19T20:30:41.205+05:30  INFO 25972 --- [http-nio-8080-exec-4] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Your Move : rock\nComputer Move : scissors\n\nPlayer wins [ the rock beats the scissors ]","statusCode":"OK","statusCodeValue":200}
+2023-05-19T20:31:31.022+05:30  INFO 25972 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["rockkk"]
+2023-05-19T20:31:31.028+05:30  INFO 25972 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Invalid move. Possible values: rock, paper, scissors","statusCode":"BAD_REQUEST","statusCodeValue":400}
+2023-05-19T20:39:16.949+05:30  INFO 28180 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : Starting RockPaperScissorsApplication using Java 17.0.6 with PID 28180 (E:\InternshipAssignment\sts\RockPaperScissorsApplication\target\classes started by asus in E:\InternshipAssignment\sts\RockPaperScissorsApplication)
+2023-05-19T20:39:16.952+05:30  INFO 28180 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-05-19T20:39:17.004+05:30  INFO 28180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-19T20:39:17.004+05:30  INFO 28180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-19T20:39:18.656+05:30  INFO 28180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-19T20:39:18.669+05:30  INFO 28180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-19T20:39:18.669+05:30  INFO 28180 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-19T20:39:18.750+05:30  INFO 28180 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-19T20:39:18.750+05:30  INFO 28180 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1745 ms
+2023-05-19T20:39:19.706+05:30  INFO 28180 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-19T20:39:19.745+05:30  INFO 28180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-19T20:39:19.756+05:30  INFO 28180 --- [restartedMain] c.game.app.RockPaperScissorsApplication  : Started RockPaperScissorsApplication in 3.273 seconds (process running for 4.26)
+2023-05-19T20:39:26.715+05:30  INFO 28180 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-19T20:39:26.717+05:30  INFO 28180 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-19T20:39:26.718+05:30  INFO 28180 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-19T20:39:26.790+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["rock"]
+2023-05-19T20:39:26.791+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:generateRandomMove()arguments : []
+2023-05-19T20:39:26.795+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:generateRandomMove()Response : "scissors"
+2023-05-19T20:39:26.796+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:determineWinner()arguments : ["rock","scissors"]
+2023-05-19T20:39:26.797+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:determineWinner()Response : "Your Move : rock\nComputer Move : scissors\n\nPlayer wins [ the rock beats the scissors ]"
+2023-05-19T20:39:26.855+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Your Move : rock\nComputer Move : scissors\n\nPlayer wins [ the rock beats the scissors ]","statusCode":"OK","statusCodeValue":200}
+2023-05-19T21:04:45.503+05:30  INFO 28180 --- [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 133 ms
+2023-05-19T21:06:54.773+05:30  INFO 28180 --- [http-nio-8080-exec-1] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["paper"]
+2023-05-19T21:06:54.773+05:30  INFO 28180 --- [http-nio-8080-exec-1] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:generateRandomMove()arguments : []
+2023-05-19T21:06:54.773+05:30  INFO 28180 --- [http-nio-8080-exec-1] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:generateRandomMove()Response : "rock"
+2023-05-19T21:06:54.773+05:30  INFO 28180 --- [http-nio-8080-exec-1] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:determineWinner()arguments : ["paper","rock"]
+2023-05-19T21:06:54.774+05:30  INFO 28180 --- [http-nio-8080-exec-1] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:determineWinner()Response : "Your Move : paper\nComputer Move : rock\n\nPlayer wins [ the paper beats the rock ]"
+2023-05-19T21:06:54.774+05:30  INFO 28180 --- [http-nio-8080-exec-1] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Your Move : paper\nComputer Move : rock\n\nPlayer wins [ the paper beats the rock ]","statusCode":"OK","statusCodeValue":200}
+2023-05-19T21:06:56.614+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["paper"]
+2023-05-19T21:06:56.616+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:generateRandomMove()arguments : []
+2023-05-19T21:06:56.616+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:generateRandomMove()Response : "rock"
+2023-05-19T21:06:56.616+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:determineWinner()arguments : ["paper","rock"]
+2023-05-19T21:06:56.616+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:determineWinner()Response : "Your Move : paper\nComputer Move : rock\n\nPlayer wins [ the paper beats the rock ]"
+2023-05-19T21:06:56.618+05:30  INFO 28180 --- [http-nio-8080-exec-2] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Your Move : paper\nComputer Move : rock\n\nPlayer wins [ the paper beats the rock ]","statusCode":"OK","statusCodeValue":200}
+2023-05-19T21:07:03.209+05:30  INFO 28180 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["scissor"]
+2023-05-19T21:07:03.213+05:30  INFO 28180 --- [http-nio-8080-exec-3] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Invalid move. Possible values: rock, paper, scissors","statusCode":"BAD_REQUEST","statusCodeValue":400}
+2023-05-19T21:07:05.359+05:30  INFO 28180 --- [http-nio-8080-exec-6] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.controller.RockPaperScissorsController:playGame()arguments : ["scissors"]
+2023-05-19T21:07:05.359+05:30  INFO 28180 --- [http-nio-8080-exec-6] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:generateRandomMove()arguments : []
+2023-05-19T21:07:05.360+05:30  INFO 28180 --- [http-nio-8080-exec-6] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:generateRandomMove()Response : "paper"
+2023-05-19T21:07:05.360+05:30  INFO 28180 --- [http-nio-8080-exec-6] c.game.logging.RockPaperScissorsLogging  : method invokeclass com.game.service.RockPaperScissorsService:determineWinner()arguments : ["scissors","paper"]
+2023-05-19T21:07:05.360+05:30  INFO 28180 --- [http-nio-8080-exec-6] c.game.logging.RockPaperScissorsLogging  : class com.game.service.RockPaperScissorsService:determineWinner()Response : "Your Move : scissors\nComputer Move : paper\n\nPlayer wins [ the scissors beats the paper ]"
+2023-05-19T21:07:05.363+05:30  INFO 28180 --- [http-nio-8080-exec-6] c.game.logging.RockPaperScissorsLogging  : class com.game.controller.RockPaperScissorsController:playGame()Response : {"headers":{},"body":"Your Move : scissors\nComputer Move : paper\n\nPlayer wins [ the scissors beats the paper ]","statusCode":"OK","statusCodeValue":200}

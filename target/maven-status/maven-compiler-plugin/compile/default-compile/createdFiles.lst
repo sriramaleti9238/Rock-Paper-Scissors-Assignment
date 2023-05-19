@@ -1,0 +1,4 @@
+com\game\app\RockPaperScissorsApplication.class
+com\game\logging\RockPaperScissorsLogging.class
+com\game\service\RockPaperScissorsService.class
+com\game\controller\RockPaperScissorsController.class
