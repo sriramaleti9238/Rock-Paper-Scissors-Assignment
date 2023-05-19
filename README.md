@@ -65,7 +65,7 @@ Now, from user move and from Computer move , the winner will be generated in res
        http://localhost:8080/swagger-ui/index.html
    
 # Results
-1. ![image](https://github.com/sriramaleti9238/Rock-Paper-Scissors-Assignment/assets/106054174/2755fb87-3202-4cbc-9932-3a6e46f10a0f)
+1. ![image](https://github.com/sriramaleti9238/Rock-Paper-Scissors-Assignment/assets/106054174/e997ee29-33ca-4be0-9c28-8304dcae09ea)
 2. ![image](https://github.com/sriramaleti9238/Rock-Paper-Scissors-Assignment/assets/106054174/446f70b4-9f4a-48b1-9078-5635f6e8da75)
 3. ![image](https://github.com/sriramaleti9238/Rock-Paper-Scissors-Assignment/assets/106054174/bd9c0db5-0cb0-403c-9cb1-34009c62359a)
 4. ![image](https://github.com/sriramaleti9238/Rock-Paper-Scissors-Assignment/assets/106054174/0e5e8caa-e981-4f24-8161-ae916ba3c79c)
