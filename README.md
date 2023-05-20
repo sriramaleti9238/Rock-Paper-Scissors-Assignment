@@ -68,7 +68,7 @@ Now, from user move and from Computer move , the winner will be generated in res
         
         instead of " * " , enter [" rock or paper or scissors "]
    
-  for swagger 
+  # for swagger 
        
   for localhost:
   
