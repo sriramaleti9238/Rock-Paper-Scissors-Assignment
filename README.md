@@ -54,15 +54,29 @@ Now, from user move and from Computer move , the winner will be generated in res
 
 # APIs
 
-  to play game 
+  to play game in localhost
   
         http://localhost:8080/api/v1/play?move=*
    
         instead of " * " , enter [" rock or paper or scissors "]
+        
+  to play game on cloud
+      
+        try it on postman or insomia , with post method
+        
+        https://g482xu7qyi.execute-api.us-east-1.amazonaws.com/rock-paper-scissors-game/play?move=*
+        
+        instead of " * " , enter [" rock or paper or scissors "]
    
   for swagger 
        
+  for localhost:
+  
        http://localhost:8080/swagger-ui/index.html
+       
+  try it on chrome:
+       
+       http://ec2-107-22-154-178.compute-1.amazonaws.com:8080/swagger-ui.html
    
 # Results
 1. ![image](https://github.com/sriramaleti9238/Rock-Paper-Scissors-Assignment/assets/106054174/e997ee29-33ca-4be0-9c28-8304dcae09ea)
